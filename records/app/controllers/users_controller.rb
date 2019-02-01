@@ -10,6 +10,8 @@ class UsersController < ApplicationController
         if @user.save
             log_in_user!(@user)
             redirect_to user_url(@user)
+        else
+            render json: @user.errors.full_messages, status: 422
         end
 
     end
