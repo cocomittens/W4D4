@@ -17,38 +17,54 @@
 h1 {
     padding-top: 0;
     margin-top: 0;
-    color: #F4EBD9;
+    margin-bottom: 0;
+    color: #2FE6DE;
     font-size: 40px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', cursive;
 
 }
 
+#create_account *, #sign_in *{
+    display: inline-block;
+    margin: 5px;
+}
+
+#create_account label, #sign_in label {
+    font-family: 'Roboto';
+    color: #eee;
+}
+
+a {
+    text-decoration: none;
+}
  .content *{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: :red;
  }
+
 
 .content {
     margin: 0 auto;
     padding: 20px;
     width: 800px;
-    background-color: #A39A92;
-    border: 5px solid #F4EBD9;
+    background-color: #1C3041;
+    border: 5px solid #eee;
 }
 
  body {
-    background-color: #77685D;
+     background-color: #89043D;
+    
  }
 
  input[type=submit] {
     padding: 5px;
-    font-size: 16px;
-    color: #F4EBD9;
-    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #111;
+    font-family: 'Roboto bold', sans-serif;
     font-weight: bold;
-    background-color: #058ED9;
+    background-color: #18F2B2;
     border-radius: 5px;
-    border: 1px solid #F4EBD9;
+    border: 1px solid #111;
+    
  }
